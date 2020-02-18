@@ -6,6 +6,57 @@ body {
     padding:0;
 }
 
+.nav-bar {
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px;
+}
+
+.nav-bar-login{
+    font-size:14px;
+    color:#999999;
+}
+
+.advert {
+    color:#666666;
+    font-size:13px;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.advert a:link, .advert a:hover, .advert a:visited, .advert a:active, .advert a {
+    text-decoration:none;
+    color:#ea4c89;
+}
+
+.advert-title {
+    font-weight:bold;
+    color:black;
+}
+
+.advert-text {
+    text-align:center;
+    width:95%;
+    padding-left:50px;
+}
+
+.advert-close {
+    width:5%;
+    text-align:right;
+}
+
+.advert-close a:link, .advert-close a:hover, .advert-close a:visited, .advert-close a:active, .advert-close a {
+    text-decoration:none;
+    color:#999999;
+    font-size:18px;
+}
+
 .site-banner {
     background-color:black;
     text-align:center;
@@ -44,11 +95,40 @@ body {
     margin-top:15px;
 }
 
-a.signup-button, a.signup-button:hover, a.signup-button:visited, a.signup-button:link {
+a.signup-button, a.signup-button:hover, a.signup-button:visited, a.signup-button:link, a.signup-button:active {
     text-decoration:none;
     color:white;
 }
 
 .artist-credit {
     font-size:15px;
+}
+
+.search-main-categories{
+    padding:8px;
+    border:1px solid #999999;
+    border-radius: 3px;
+    display:inline-block;
+    color:#666666;
+}
+
+.search-style-categories {
+    width:100%;
+    border:1px solid red;
+}
+
+.search-styles-list{
+    list-style:none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    white-space:nowrap;
+    overflow-x:auto;
+    width:100%;
+}
+
+.search-styles-list li {
+    display:inline-block;
+    padding:3px;
+    margin:3px;
 }

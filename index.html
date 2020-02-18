@@ -9,12 +9,15 @@
 </head>
 <body>
     <header>
-        <div class="">
+        <div class="nav-bar">
             <div>&#9776;</div>
             <div>logo</div>
-            <div>Sign in</div>
+            <div class="nav-bar-login">Sign in</div>
         </div>
-        <div class="" role="">Hiring Designers? Post on the largest Job Board for Designers for only $299 per month. Get started today</div>
+        <div class="advert">
+            <div class="advert-text"><span class="advert-title">Hiring Designers?</span> Post on the largest Job Board for Designers for only $299 per month. <a href="">Get started today</a></div>
+            <div class="advert-close"><a href="" aria-label="Close Advert" role="button">X</a></div>
+        </div>
     </header>
     <div class="site-banner" role="banner">
         <img src="imgs/banner_img.jpg" alt="banner image" title="banner image">
@@ -28,15 +31,28 @@
         </div>
     </div>
     <main>
-        <div>
-            <select>
-                <option>Popular</option>
-                <option>Teams</option>
-                <option>Debuts</option>
-                <option>Recent</option>
-                <option>Goods for Sale</option>
-            </select>
-        </div>
+        <fieldset aria-label="search and display options">
+            <div class="search-main-categories">Popular &nbsp;&nbsp; <span style="font-family:Verdana, Geneva, sans-serif;color:#999999;">v</span></div>
+            <div class="search-style-categories">
+                <ul class="search-styles-list">
+                    <li><a href="" role="button" title="Show All Works">All</a></li>
+                    <li><a href="" role="button" title="Show Animation Works">Animation</a></li>
+                    <li><a href="" role="button" title="Show Branding Works">Branding</a></li>
+                    <li><a href="" role="button" title="Show Illustration Works">Illustration</a></li>
+                    <li><a href="" role="button" title="Show Mobile Works">Mobile</a></li>
+                    <li><a href="" role="button" title="Show Print Works">Print</a></li>
+                    <li><a href="" role="button" title="Show Product Design Works">Product Design</a></li>
+                    <li><a href="" role="button" title="Show Typography Works">Typography</a></li>
+                    <li><a href="" role="button" title="Show Web Design Works">Web Design</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="" role="button" title="Show More Filter Options">Filters</a>
+                <div>
+                    <a href="" role="button" title="Grid Display Format" style="text-decoration:none;">&#9608;</a>
+                </div>
+            </div>
+        </fieldset>
         <div>image grid</div>
         <div>framer upsell, sign up button/sign in link</div>
     </main>
